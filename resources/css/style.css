@@ -1,0 +1,178 @@
+
+body {
+  background-color: black;
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  font-size: 22px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h4 {
+  font-size: 22px;
+  margin: 0;
+  padding: 10px;
+}
+h2 {
+  font-size: 30px;
+  margin: 0;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+
+header nav {
+  display: flex;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.mission img {
+  height: 114.286%;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.ourmission {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+  background-color: black;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.ourmission h2 {
+  text-align: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 10px;
+}
+
+.ourmission h4 {
+  align-items: flex-start;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+
+.middle-section {
+  display: flex;
+  margin: auto;
+  padding-top: 100px;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.middle-section-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.middle-section-images {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-flow: wrap;
+  text-align: center;
+  width: 1000px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.middle-section-img-title {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.middle-section-img-title img {
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.middle-section-img-title h4 {
+  text-align: center;
+  align-items: flex-start;
+}
+
+
+.bottom-section {
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+}
+
+.bottom-section-box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.bottom-section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+}
+
+.footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
